@@ -4,7 +4,7 @@ pipeline {
     stages{
         stage('Code'){
             steps {
-                git url: 'https://github.com/mr-lazyindian/EPAM-Project.git', branch: 'main'
+                git url: 'https://github.com/aran-yogesh/IAC-movie_website', branch: 'main'
             }
         }
         stage('Build and Test'){
