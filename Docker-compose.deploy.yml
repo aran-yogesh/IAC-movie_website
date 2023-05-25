@@ -1,6 +1,6 @@
 version: '3.1'
 services:
   web: 
-    image: bhargavsai08/movie-info:latest
+    image: aran-yogesh/movie-info:latest
     ports:
       - "5000:3000"
